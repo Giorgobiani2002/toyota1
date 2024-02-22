@@ -1,0 +1,413 @@
+body {
+    background-repeat:initial;
+    background-color: black;
+    
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+nav {
+    margin-right: 0%;
+    
+}
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    height: 55px;
+    
+}
+li {
+    list-style: none;
+    display: inline-block;
+    color: rgb(0, 72, 136);
+    padding: 70px;
+    font-style: oblique;
+    font-weight: bolder;
+    
+    
+    
+    
+    
+}
+
+header img {
+    height: 100px;
+}
+.img {
+    height: 30px;
+    width: 50px;
+}
+header:hover  {
+    background-color: rgb(255, 255, 255);
+    transition: 1s;
+    
+}
+li:hover{
+    color: rgba(143, 68, 68, 0.342);
+}
+
+ 
+
+
+
+
+
+#walp {
+    
+    width: 100%;
+    height: 31.25rem;
+    
+}
+h2  {
+    color: aliceblue;
+    left:11%;
+    top: 23rem;
+    position: absolute;
+    font-style: oblique;
+}
+#learnmore:hover{
+    
+    color:darkgray;
+    
+    
+}
+#learnmore {
+    padding-left: 0.1875rem;
+    padding-right: 0.1875rem;
+    font-size: 1.17em;
+    
+    position: absolute;
+    left:13.5%;
+    top: 25rem;
+    border-width: 0.1875rem;
+    cursor: pointer;
+    font-style: oblique;
+    
+    
+    border-radius: 0.25;
+    border-color: white;
+    border-style:solid;
+    
+}
+
+#message {
+    position:absolute;
+    width: 3.125rem;
+    height: 3.125rem;
+    position: fixed;
+    bottom: 0.625rem;
+    
+    
+    left: 95%;
+    cursor: pointer;
+   
+    
+
+}
+#message:hover{
+    transition: 0.5s;
+    
+    width: 3.75rem;
+    height: 3.75rem;
+}
+#walp2 {
+    
+    margin-top: 3%;
+    width: 100%;
+    height: 31.25rem;
+}
+#chr {
+    position: absolute;
+    top: 55.3125rem;
+    left: 11%;
+    font-style: oblique;
+    color: aliceblue;
+    font-size: 1.5em;
+}
+
+
+h4 {
+    position: absolute;
+    top: 57.5625rem;
+    left: 14%;
+    font-style: oblique;
+    border-width: 3px;
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.17em;
+    color: aliceblue;
+    
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+
+}
+h4:hover {
+    color: darkgray;
+}
+#walp3 {
+    
+    margin-top: 3%;
+    width: 100%;
+    height: 500px;
+}
+h5 {
+    position: absolute;
+    top: 90rem;
+    font-style: oblique;
+    left: 11%;
+    color: aliceblue;
+    font-size: 1.5em;
+
+
+}
+h6 {
+    position: absolute;
+    top: 92rem;
+    left: 14%;
+    font-style: oblique;
+    border-width: 3px;
+    cursor: pointer;
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.17em;
+    color: aliceblue;
+    
+    
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+}
+h6:hover {
+    color:darkgray;
+}
+#text {
+    left:5.5%;
+    top: 27rem;
+    position: absolute;
+    color:aliceblue;
+    font-display:inherit;
+    display:none;
+    
+    
+    
+    font-style: oblique;
+    
+    
+    
+    
+    
+    
+    
+
+    
+}
+#text1 {
+    position: absolute;
+    color:aliceblue;
+    font-display:inherit;
+    
+    
+    display: none;
+    font-style: oblique;
+    
+    
+    
+    position: absolute;
+    top: 60rem;
+    left: 5.5%;
+    font-style: oblique;
+    
+
+}
+#text2 {
+    position: absolute;
+    color:aliceblue;
+    font-display:inherit;
+    
+    
+    display: none;
+    font-style: oblique;
+    
+    
+    
+    
+    
+    position: absolute;
+    top: 94rem;
+    left: 2.5rem;
+    font-style: oblique;
+    max-width: 100% ;
+
+}
+#title {
+    position: absolute;
+    top:110rem;
+    color: aliceblue;
+    font-style: oblique;
+    left: 38%;
+    border-style: solid;
+    border-width: 2px;
+    
+    
+    
+}
+
+
+#supra {
+    position: absolute;
+    left: 15%;
+    top:118rem;
+    height: 15%;
+    width: 14%;
+
+
+}
+#camry {
+    position: absolute;
+    left: 43% ;
+    top:118rem;
+    height: 15%;
+    width: 14%;
+}
+#hilux {
+    position: absolute;
+    top:118rem;
+    height: 15%;
+    width: 14%;
+    left:69%;
+}
+#supra1 {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.17rem;
+    
+    position: absolute;
+    left:17%;
+    top: 125rem;
+    border-width: 3px;
+    cursor: pointer;
+    font-style: oblique;
+    color: aliceblue;
+    
+    
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+
+}
+#supratxt{
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    left: 1%;
+    top:128rem;
+    font-size: 0.7rem;
+    transition: 2s;
+    max-width: 100px;
+
+}
+
+#camry1 {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.17em;
+    
+    position: absolute;
+    left:45%;
+    top: 125rem;
+    border-width: 3px;
+    cursor: pointer;
+    font-style: oblique;
+    color: aliceblue;
+    
+    
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+
+}
+#camrytxt {
+    display: none;
+    color: aliceblue;
+    position: absolute;
+    left: 35%;
+    top:310%;
+    font-size:small;
+
+}
+#hilux1 {
+    padding-left: 3px;
+    padding-right: 3px;
+    font-size: 1.17em;
+    
+    position: absolute;
+    left:72%;
+    top: 125rem;
+    border-width: 3px;
+    cursor: pointer;
+    font-style: oblique;
+    color: aliceblue;
+    
+    
+    border-radius: 4px;
+    border-color: white;
+    border-style:solid;
+
+}
+#hiluxtxt {
+    color: aliceblue;
+    position: absolute;
+    left: 60%;
+    top:310%;
+    font-size:small;
+    display: none;
+
+}
+#supra1:hover {
+    color: darkgray;
+
+}
+#hilux1:hover {
+    color: darkgray;
+}
+#camry1:hover {
+    color: darkgray;
+}
+#copy {
+    color: aliceblue;
+    position: absolute;
+    
+    top:140rem;
+    font-size: small;
+    
+    
+
+}
+body {
+    height: 2210px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
